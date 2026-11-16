@@ -32,6 +32,7 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           TIME_ZONE: America/New_York
+          NAME: "Zhonghao (Allen) Li"
           EXCLUDE_REPOS: vscode,hue,shadowsocks-android,fastText,bert4keras,machinelearning,Recipes
           AUTO_PUSH: false
 
@@ -42,6 +43,25 @@ jobs:
           mkdir -p dist/cards/light dist/cards/dark
           cp profile-summary-card-output/github/*.svg dist/cards/light/
           cp profile-summary-card-output/github_dark/*.svg dist/cards/dark/
+
+      - name: Recolor the cards to match the site's teal palette
+        run: |
+          # Light: blue titles and green chart -> teal; drop the boxed border and white fill
+          sed -i \
+            -e 's/stroke="#e4e2e2" stroke-width="1" fill="#ffffff"/stroke="none" stroke-width="0" fill="none"/' \
+            -e 's/#0366d6/#0B6E69/g; s/#40c463/#0B6E69/g; s/#586069/#5A6573/g' \
+            -e 's/#3572A5/#0B6E69/g; s/#3178c6/#2E9C90/g; s/#555555/#7FC2B8/g; s/#663399/#B5DCD6/g; s/#e34c26/#5A6573/g' \
+            dist/cards/light/*.svg
+          # Dark: same mapping onto the lighter teal used in dark mode
+          sed -i \
+            -e 's/stroke="#2e343b" stroke-width="1" fill="#0d1117"/stroke="none" stroke-width="0" fill="none"/' \
+            -e 's/#0366d6/#4EC1B5/g; s/#40c463/#4EC1B5/g; s/#77909c/#9AA6B0/g; s/#8b949e/#9AA6B0/g' \
+            -e 's/#3572A5/#4EC1B5/g; s/#3178c6/#2E9C90/g; s/#555555/#1F6A64/g; s/#663399/#173B3A/g; s/#e34c26/#9AA6B0/g' \
+            dist/cards/dark/*.svg
+          # Fail loudly if a border pattern changed upstream and was not replaced
+          if grep -l 'stroke="#e4e2e2"\|stroke="#2e343b"' dist/cards/*/0-profile-details.svg dist/cards/*/3-stats.svg dist/cards/*/2-most-commit-language.svg; then
+            echo "::error::Card border colors changed upstream; update the recolor step"; exit 1
+          fi
           ls -R dist
 
       - name: Publish to the output branch

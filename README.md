@@ -1,12 +1,10 @@
 ## Hi, I'm Allen (Zhonghao Li)
 
-<img alt="Efficient multi-hop RAG · TreeHop, Refiner, CoRe · Fraud and credit-risk modeling" src="https://readme-typing-svg.demolab.com/?font=Schibsted+Grotesk&amp;weight=500&amp;size=20&amp;pause=1600&amp;color=1F9E94&amp;vCenter=true&amp;width=560&amp;height=34&amp;lines=Efficient+multi-hop+retrieval-augmented+generation;TreeHop+%C2%B7+Refiner+%C2%B7+CoRe;Fraud+and+credit-risk+modeling+for+payments">
+<img alt="Efficient multi-hop RAG · TreeHop, Refiner, CoRe · Fraud and credit-risk modeling" src="https://readme-typing-svg.demolab.com/?font=Schibsted+Grotesk&amp;weight=500&amp;size=20&amp;pause=1600&amp;color=1F9E94&amp;vCenter=true&amp;width=640&amp;height=34&amp;lines=Efficient+multi-hop+retrieval-augmented+generation;TreeHop+%C2%B7+Refiner+%C2%B7+CoRe;Fraud+and+credit-risk+modeling+for+payments">
 
 I'm a PhD student in Information Systems at the University of Maryland, advised by Kunpeng Zhang. I make retrieval-augmented generation (RAG) faster and more accurate on questions that need several pieces of evidence. Before my PhD, I spent four years in Shanghai building fraud and credit-risk models for payments and banking.
 
 **Website:** [allen-li1231.github.io](https://allen-li1231.github.io) · **Scholar:** [Google Scholar](https://scholar.google.com/citations?hl=en&user=RS3xcXUAAAAJ) · **LinkedIn:** [li-zhonghao-allen](https://www.linkedin.com/in/li-zhonghao-allen-0968b8179/) · **Email:** al1231@terpmail.umd.edu
-
-I'm open to Summer 2027 research internships.
 
 ### Research code
 
