@@ -37,6 +37,8 @@ jobs:
 
       - name: Collect the light and dark cards
         run: |
+          # The snake step runs in Docker and leaves dist/ owned by root
+          sudo chown -R "$(id -u):$(id -g)" dist
           mkdir -p dist/cards/light dist/cards/dark
           cp profile-summary-card-output/github/*.svg dist/cards/light/
           cp profile-summary-card-output/github_dark/*.svg dist/cards/dark/
