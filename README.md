@@ -35,22 +35,22 @@ PyTorch · Hugging Face Transformers · PEFT/LoRA · DeepSpeed · vLLM · FAISS 
 ### GitHub activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=allen-li1231&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=4EC1B5&amp;icon_color=4EC1B5&amp;text_color=E6EDF3">
-  <img alt="GitHub stats for allen-li1231" src="https://github-readme-stats.vercel.app/api?username=allen-li1231&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=0B6E69&amp;icon_color=0B6E69&amp;text_color=18212B" height="165">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/cards/dark/0-profile-details.svg">
+  <img alt="Contributions over the past year" src="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/cards/light/0-profile-details.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/cards/dark/3-stats.svg">
+  <img alt="GitHub stats" src="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/cards/light/3-stats.svg" height="165">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=allen-li1231&amp;layout=compact&amp;langs_count=8&amp;exclude_repo=vscode,hue,shadowsocks-android,fastText,bert4keras&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=4EC1B5&amp;text_color=E6EDF3">
-  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=allen-li1231&amp;layout=compact&amp;langs_count=8&amp;exclude_repo=vscode,hue,shadowsocks-android,fastText,bert4keras&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=0B6E69&amp;text_color=18212B" height="165">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/cards/dark/2-most-commit-language.svg">
+  <img alt="Languages by commits" src="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/cards/light/2-most-commit-language.svg" height="165">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=allen-li1231&amp;hide_border=true&amp;background=00000000&amp;ring=4EC1B5&amp;fire=4EC1B5&amp;currStreakLabel=4EC1B5&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;sideLabels=9AA6B0&amp;dates=9AA6B0&amp;stroke=9AA6B0">
   <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=allen-li1231&amp;hide_border=true&amp;background=00000000&amp;ring=0B6E69&amp;fire=0B6E69&amp;currStreakLabel=0B6E69&amp;currStreakNum=18212B&amp;sideNums=18212B&amp;sideLabels=5A6573&amp;dates=5A6573&amp;stroke=5A6573">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=allen-li1231&amp;bg_color=0d1117&amp;color=9AA6B0&amp;title_color=E6EDF3&amp;line=4EC1B5&amp;point=4EC1B5&amp;area=true&amp;area_color=4EC1B5&amp;hide_border=true&amp;custom_title=Contributions+over+the+past+month">
-  <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=allen-li1231&amp;bg_color=ffffff&amp;color=5A6573&amp;title_color=18212B&amp;line=0B6E69&amp;point=0B6E69&amp;area=true&amp;area_color=0B6E69&amp;hide_border=true&amp;custom_title=Contributions+over+the+past+month">
 </picture>
 
 <picture>
