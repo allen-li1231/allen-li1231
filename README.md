@@ -50,8 +50,3 @@ PyTorch · Hugging Face Transformers · PEFT/LoRA · DeepSpeed · vLLM · FAISS 
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=allen-li1231&amp;hide_border=true&amp;background=00000000&amp;ring=4EC1B5&amp;fire=4EC1B5&amp;currStreakLabel=4EC1B5&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;sideLabels=9AA6B0&amp;dates=9AA6B0&amp;stroke=9AA6B0">
   <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=allen-li1231&amp;hide_border=true&amp;background=00000000&amp;ring=0B6E69&amp;fire=0B6E69&amp;currStreakLabel=0B6E69&amp;currStreakNum=18212B&amp;sideNums=18212B&amp;sideLabels=5A6573&amp;dates=5A6573&amp;stroke=5A6573">
 </picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/github-snake-dark.svg">
-  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/allen-li1231/allen-li1231/output/github-snake.svg">
-</picture>

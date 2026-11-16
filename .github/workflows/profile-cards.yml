@@ -10,19 +10,16 @@ on:
 permissions:
   contents: write
 
+# Never let two runs publish to the output branch at the same time
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Draw the snake from the contribution graph
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#0B6E69&color_dots=#ebedf0,#c6e4df,#7fc2b8,#2e9c90,#0B6E69
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#4EC1B5&color_dots=#161b22,#173b3a,#1f6a64,#2e9c90,#4EC1B5
-
       - name: Generate stats, languages and contribution cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -38,8 +35,6 @@ jobs:
 
       - name: Collect the light and dark cards
         run: |
-          # The snake step runs in Docker and leaves dist/ owned by root
-          sudo chown -R "$(id -u):$(id -g)" dist
           mkdir -p dist/cards/light dist/cards/dark
           cp profile-summary-card-output/github/*.svg dist/cards/light/
           cp profile-summary-card-output/github_dark/*.svg dist/cards/dark/
