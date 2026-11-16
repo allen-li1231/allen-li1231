@@ -13,6 +13,8 @@ I'm open to Summer 2027 research internships.
 | **TreeHop** | A 0.18B-parameter model that builds the next hop's query embedding directly, replacing LLM query rewriting in multi-hop retrieval. Cuts retrieval latency by 92.8–97.8%. | [Paper](https://arxiv.org/abs/2504.20114) · [Code](https://github.com/allen-li1231/TreeHop-RAG) · [Model](https://huggingface.co/allen-li1231/treehop-rag) |
 | **Refiner** (Findings of EMNLP 2024) | A 7B model that extracts and restructures retrieved passages before they reach the reader LLM. Uses 80.5% fewer input tokens while improving multi-hop QA accuracy by 1.6–7.0%. | [Paper](https://aclanthology.org/2024.findings-emnlp.500/) · [Code](https://github.com/allen-li1231/refiner-rag) · [Model](https://huggingface.co/al1231/Refiner-7B) |
 
+Also accepted: *Beyond Similarity: Complementary Retrieval for Efficient Multi-Hop Retrieval-Augmented Generation* (CoRe), EACL 2027. The full list is on [my website](https://allen-li1231.github.io/#publications).
+
 ### Open source
 
 - **[Zeppelin for VS Code](https://github.com/allen-li1231/zeppelin-vscode)**: runs Apache Zeppelin notebooks inside VS Code, so data scientists can work in SQL, Scala, Python and R without leaving the editor. 3,900+ downloads on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=AllenLi1231.zeppelin-vscode).
