@@ -26,8 +26,8 @@ Also accepted: *Beyond Similarity: Complementary Retrieval for Efficient Multi-H
 ### Tools I use
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,pytorch,ts,java,c,rust,r,latex,git,linux,vscode&amp;perline=11&amp;theme=dark">
-  <img alt="Python, PyTorch, TypeScript, Java, C, Rust, R, LaTeX, Git, Linux, VS Code" src="https://skillicons.dev/icons?i=python,pytorch,ts,java,c,rust,r,latex,git,linux,vscode&amp;perline=11&amp;theme=light">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cpytorch%2Cts%2Cjava%2Cc%2Crust%2Cr%2Clatex%2Cgit%2Clinux%2Cvscode&amp;perline=11&amp;theme=dark">
+  <img alt="Python, PyTorch, TypeScript, Java, C, Rust, R, LaTeX, Git, Linux, VS Code" src="https://skillicons.dev/icons?i=python%2Cpytorch%2Cts%2Cjava%2Cc%2Crust%2Cr%2Clatex%2Cgit%2Clinux%2Cvscode&amp;perline=11&amp;theme=light">
 </picture>
 
 PyTorch · Hugging Face Transformers · PEFT/LoRA · DeepSpeed · vLLM · FAISS · DGL · Spark · SQL · TypeScript
