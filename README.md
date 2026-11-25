@@ -11,9 +11,10 @@ I'm a PhD student in Information Systems at the University of Maryland, advised 
 | Project | What it does | Links |
 | --- | --- | --- |
 | **TreeHop** | A 0.18B-parameter model that builds the next hop's query embedding directly, replacing LLM query rewriting in multi-hop retrieval. Cuts retrieval latency by 92.8–97.8%. | [Paper](https://arxiv.org/abs/2504.20114) · [Code](https://github.com/allen-li1231/TreeHop-RAG) · [Model](https://huggingface.co/allen-li1231/treehop-rag) |
+| **CoRe** (EACL 2027) | An embedding-level retriever that pairs similarity search with a Hoyer-sparsity criterion, so each hop favors passages that add missing evidence over ones that repeat what is already retrieved. Improves both recall and efficiency of multi-hop RAG, with no LLM query rewriting between hops. | [Code](https://github.com/allen-li1231/CoRe-RAG) |
 | **Refiner** (Findings of EMNLP 2024) | A 7B model that extracts and restructures retrieved passages before they reach the reader LLM. Uses 80.5% fewer input tokens while improving multi-hop QA accuracy by 1.6–7.0%. | [Paper](https://aclanthology.org/2024.findings-emnlp.500/) · [Code](https://github.com/allen-li1231/refiner-rag) · [Model](https://huggingface.co/al1231/Refiner-7B) |
 
-Also accepted: *Beyond Similarity: Complementary Retrieval for Efficient Multi-Hop Retrieval-Augmented Generation* (CoRe), EACL 2027. The full list is on [my website](https://allen-li1231.github.io/#publications).
+CoRe is the code for *Beyond Similarity: Complementary Retrieval for Efficient Multi-Hop Retrieval-Augmented Generation*. My full publication list is on [my website](https://allen-li1231.github.io/#publications).
 
 ### Open source
 
